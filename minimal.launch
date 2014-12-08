@@ -1,0 +1,6 @@
+<launch>
+	<node name="RSPiBase" pkg="RSPiBot_Base_Node" type="rsbotbase" args = "" output="screen" />
+	<node name="RSPiLaser" pkg="RSPiBot_Laser_node" type="rspibot_laser" args = "" output="screen" />
+	<node name="RSPiTwist" pkg="RSPiBot_Twist_node" type="rspibot_twist" args = "" output="screen" />
+</launch>
+
